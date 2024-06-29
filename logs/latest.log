@@ -1,28 +1,42 @@
-[17:15:59] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[17:15:59] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
-[17:16:01] [ServerMain/INFO]: Loaded 7 recipes
-[17:16:02] [Server thread/INFO]: Starting minecraft server version 1.19.4
-[17:16:02] [Server thread/INFO]: Loading properties
-[17:16:02] [Server thread/INFO]: This server is running Paper version git-Paper-550 (MC: 1.19.4) (Implementing API version 1.19.4-R0.1-SNAPSHOT) (Git: 483368e on ver/1.19.4)
-[17:16:02] [Server thread/INFO]: Using 4 threads for Netty based IO
-[17:16:02] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[17:16:03] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 2 worker threads, and gen parallelism of 2 threads
-[17:16:03] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[18:54:58] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18:55:01] [ServerMain/INFO]: Loaded 7 recipes
+[18:55:02] [Server thread/INFO]: Starting minecraft server version 1.19.4
+[18:55:02] [Server thread/INFO]: Loading properties
+[18:55:02] [Server thread/INFO]: This server is running Paper version git-Paper-550 (MC: 1.19.4) (Implementing API version 1.19.4-R0.1-SNAPSHOT) (Git: 483368e on ver/1.19.4)
+[18:55:02] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:55:02] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:55:02] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[17:16:03] [Server thread/INFO]: Default game type: SURVIVAL
-[17:16:03] [Server thread/INFO]: Generating keypair
-[17:16:03] [Server thread/INFO]: Starting Minecraft server on *:25565
-[17:16:03] [Server thread/INFO]: Using default channel type
-[17:16:03] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[17:16:03] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[17:16:04] [Server thread/INFO]: Preparing level "world"
-[17:16:17] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[17:16:17] [Server thread/INFO]: Time elapsed: 261 ms
-[17:16:17] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[17:16:17] [Server thread/INFO]: Time elapsed: 76 ms
-[17:16:17] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[17:16:17] [Server thread/INFO]: Time elapsed: 65 ms
-[17:16:17] [Server thread/INFO]: Running delayed init tasks
-[17:16:17] [Server thread/INFO]: Done (14.798s)! For help, type "help"
-[17:16:17] [Server thread/INFO]: Timings Reset
+[18:55:02] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 2 worker threads, and gen parallelism of 2 threads
+[18:55:03] [Server thread/INFO]: Default game type: SURVIVAL
+[18:55:03] [Server thread/INFO]: Generating keypair
+[18:55:03] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:55:03] [Server thread/INFO]: Using default channel type
+[18:55:03] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[18:55:03] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[18:55:03] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load 'plugins\MMOCore-1.12-SNAPSHOT.jar' in 'plugins'
+org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins: [MythicLib]. Please download and install these plugins to run 'MMOCore'.
+	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:82) ~[paper-1.19.4.jar:git-Paper-550]
+	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:39) ~[paper-1.19.4.jar:git-Paper-550]
+	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:36) ~[paper-1.19.4.jar:git-Paper-550]
+	at org.bukkit.craftbukkit.v1_19_R3.CraftServer.loadPlugins(CraftServer.java:431) ~[paper-1.19.4.jar:git-Paper-550]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:273) ~[paper-1.19.4.jar:git-Paper-550]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1104) ~[paper-1.19.4.jar:git-Paper-550]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:320) ~[paper-1.19.4.jar:git-Paper-550]
+	at java.lang.Thread.run(Thread.java:842) ~[?:?]
+[18:55:04] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.3.0-SNAPSHOT-723
+[18:55:04] [Server thread/INFO]: [LibsDisguises] Loading server plugin LibsDisguises v10.0.44
+[18:55:04] [Server thread/INFO]: [MythicMobs] Loading server plugin MythicMobs v5.6.2-3e052553
+[18:55:04] [Server thread/INFO]: [LumineUtils] (io.lumine.mythic.bukkit.utils.) is bound to plugin MythicMobs - io.lumine.mythic.bukkit.MythicBukkit
+[18:55:05] [Server thread/INFO]: [MythicMobs] §4M§6y§6t§6h§2i§2c§2 §3E§3n§1a§1b§1l§5e§5d§4![0m
+[18:55:05] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.131
+[18:55:11] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:55:11] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.3.0-SNAPSHOT-723
+[18:55:12] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.131
+[18:55:14] [Server thread/INFO]:         __    
+[18:55:14] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.131
+[18:55:14] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[18:55:14] [Server thread/INFO]: 
+[18:55:14] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[18:55:15] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
