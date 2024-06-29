@@ -1,111 +1,67 @@
-[20:00:30] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[20:00:33] [ServerMain/INFO]: Loaded 7 recipes
-[20:00:34] [Server thread/INFO]: Starting minecraft server version 1.19.4
-[20:00:34] [Server thread/INFO]: Loading properties
-[20:00:34] [Server thread/INFO]: This server is running Paper version git-Paper-550 (MC: 1.19.4) (Implementing API version 1.19.4-R0.1-SNAPSHOT) (Git: 483368e on ver/1.19.4)
-[20:00:34] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[20:00:34] [Server thread/INFO]: Using 4 threads for Netty based IO
-[20:00:34] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[20:05:34] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20:05:37] [ServerMain/INFO]: Loaded 7 recipes
+[20:05:38] [Server thread/INFO]: Starting minecraft server version 1.19.4
+[20:05:38] [Server thread/INFO]: Loading properties
+[20:05:38] [Server thread/INFO]: This server is running Paper version git-Paper-550 (MC: 1.19.4) (Implementing API version 1.19.4-R0.1-SNAPSHOT) (Git: 483368e on ver/1.19.4)
+[20:05:38] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:05:38] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:05:38] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[20:00:34] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 2 worker threads, and gen parallelism of 2 threads
-[20:00:34] [Server thread/INFO]: Default game type: SURVIVAL
-[20:00:34] [Server thread/INFO]: Generating keypair
-[20:00:34] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:00:35] [Server thread/INFO]: Using default channel type
-[20:00:35] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[20:00:35] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[20:00:36] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.3.0-SNAPSHOT-723
-[20:00:36] [Server thread/INFO]: [LibsDisguises] Loading server plugin LibsDisguises v10.0.44
-[20:00:36] [Server thread/INFO]: [MythicMobs] Loading server plugin MythicMobs v5.6.2-3e052553
-[20:00:36] [Server thread/INFO]: [LumineUtils] (io.lumine.mythic.bukkit.utils.) is bound to plugin MythicMobs - io.lumine.mythic.bukkit.MythicBukkit
-[20:00:36] [Server thread/INFO]: [MythicMobs] §4M§6y§6t§6h§2i§2c§2 §3E§3n§1a§1b§1l§5e§5d§4![0m
-[20:00:36] [Server thread/INFO]: [MythicLib] Loading server plugin MythicLib v1.6.1
-[20:00:36] [Server thread/INFO]: [MythicLib] Plugin file is called 'MythicLib-1.6.1.jar'
-[20:00:36] [Server thread/INFO]: [MythicLib] Detected Bukkit Version: v1_19_R3
-[20:00:36] [Server thread/INFO]: [MMOItems] Loading server plugin MMOItems v6.9.4
-[20:00:36] [Server thread/INFO]: [MMOItems] Plugin file is called 'MMOItems-6.9.4.jar'
-[20:00:37] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.131
-[20:00:39] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[20:00:39] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.3.0-SNAPSHOT-723
-[20:00:39] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.131
-[20:00:40] [Server thread/INFO]:         __    
-[20:00:40] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.131
-[20:00:40] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[20:00:40] [Server thread/INFO]: 
-[20:00:40] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[20:00:40] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[20:00:41] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[20:00:41] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[20:00:41] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2417ms)
-[20:00:41] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[20:00:41] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[20:00:41] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[20:00:41] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[20:00:41] [Server thread/INFO]: Preparing level "world"
-[20:00:42] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[20:00:42] [Server thread/INFO]: Time elapsed: 201 ms
-[20:00:42] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[20:00:42] [Server thread/INFO]: Time elapsed: 84 ms
-[20:00:42] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[20:00:42] [Server thread/INFO]: Time elapsed: 50 ms
-[20:00:42] [Server thread/INFO]: [LibsDisguises] Enabling LibsDisguises v10.0.44
-[20:00:43] [Server thread/INFO]: [LibsDisguises] File Name: LibsDisguises-10.0.44-Free.jar
-[20:00:43] [Server thread/INFO]: [LibsDisguises] Discovered nms version: (Package: v1_19_R3) (LD: v1_19_R3) (MC: 1.19.4)
-[20:00:43] [Server thread/INFO]: [LibsDisguises] Jenkins Build: #1314
-[20:00:43] [Server thread/INFO]: [LibsDisguises] Build Date: 10/04/2024 02:12
-[20:00:43] [Server thread/INFO]: [LibsDisguises] If you own the plugin, place the premium jar downloaded from https://www.spigotmc.org/resources/libs-disguises.32453/ in plugins/LibsDisguises/
-[20:00:43] [Server thread/INFO]: [LibsDisguises] You are running the free version, commands limited to non-players and operators. (Console, Command Blocks, Admins)
-[20:00:43] [Server thread/INFO]: [LibsDisguises] Config 'TallSelfDisguises' is set to 'false', LD will hide oversized disguises from self disguise. https://www.spigotmc.org/wiki/lib-s-disguises-faq/#tall-disguises-self-disguises
-[20:00:46] [Server thread/INFO]: [LibsDisguises] Loaded custom disguise libraryaddict
-[20:00:46] [Server thread/INFO]: [LibsDisguises] Loaded 1 custom disguise
-[20:00:46] [Server thread/INFO]: [LibsDisguises] Config is up to date!
-[20:00:46] [Server thread/INFO]: [MythicMobs] Enabling MythicMobs v5.6.2-3e052553
-[20:00:47] [Server thread/INFO]: [MythicMobs] Loading MythicMobs for Paper (MC: 1.19.4)...[0m
-[20:00:47] [Server thread/INFO]: [MythicMobs] The server is running Paper; enabled Paper exclusive functionality[0m
-[20:00:50] [Server thread/INFO]: [MythicMobs] Mythic LibsDisguises Support has been enabled![0m
-[20:00:50] [Server thread/INFO]: [MythicMobs] Mythic MMOItems Support has been enabled![0m
-[20:00:50] [Server thread/INFO]: [MythicMobs] Mythic ProtocolLib Support has been enabled![0m
-[20:00:50] [Server thread/INFO]: [MythicMobs] Base directory D:\Server\plugins\MythicMobs\data
-[20:00:50] [Server thread/INFO]: [MythicMobs] Module directory D:\Server\plugins\MythicMobs\data\worlds
-[20:00:54] [Server thread/INFO]: [MythicMobs] Loading Packs...[0m
-[20:00:54] [Server thread/INFO]: [MythicMobs] Loading Items...[0m
-[20:00:54] [Server thread/INFO]: [MythicMobs] Loading Item Groups...[0m
-[20:00:54] [Server thread/INFO]: [MythicMobs] Loading Skills...[0m
-[20:00:55] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...[0m
-[20:00:55] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...[0m
-[20:00:55] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...[0m
-[20:00:55] [Server thread/INFO]: [MythicMobs] [32m?[37m Loaded 8 mobs.[0m
-[20:00:55] [Server thread/INFO]: [MythicMobs] [32m?[37m Loaded 3 vanilla mob overrides.[0m
-[20:00:55] [Server thread/INFO]: [MythicMobs] [32m?[37m Loaded 0 mob stacks.[0m
-[20:00:55] [Server thread/INFO]: [MythicMobs] [32m?[37m Loaded 3 skills.[0m
-[20:00:55] [Server thread/INFO]: [MythicMobs] [32m?[37m Loaded 0 random spawns.[0m
-[20:00:55] [Server thread/INFO]: [MythicMobs] [32m?[37m Loaded 3 mythic items.[0m
-[20:00:55] [Server thread/INFO]: [MythicMobs] [32m?[37m Loaded 2 drop tables.[0m
-[20:00:55] [Server thread/INFO]: [MythicMobs] [32m?[37m Loaded 0 mob spawners.[0m
-[20:00:55] [Server thread/INFO]: [MythicMobs] MythicMobs configuration file loaded successfully.[0m
-[20:00:55] [Server thread/INFO]: [MythicMobs] Started up bStats Metrics[0m
-[20:00:55] [Server thread/INFO]: [MythicMobs] [32m? MythicMobs v5.6.2 ( build 3e052553 ) has been successfully loaded![0m[0m
-[20:00:55] [Server thread/INFO]: [MythicLib] Enabling MythicLib v1.6.1
-[20:00:55] [Server thread/INFO]: [MythicMobs] MMO Plugin Support has been enabled![0m
-[20:00:55] [Server thread/INFO]: [MythicLib] Hooked onto MythicMobs
-[20:00:55] [Server thread/INFO]: [MythicLib] Hooked onto ProtocolLib
-[20:00:55] [Server thread/INFO]: [MMOItems] Enabling MMOItems v6.9.4
-[20:00:55] [Server thread/INFO]: [MMOItems] [STDOUT] [36m[Spigotunlocked.com] - COSMO
-[20:00:55] [Server thread/WARN]: Nag author(s): '[Indyuce]' of 'MMOItems v6.9.4' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
-[20:00:56] [Server thread/INFO]: [MMOItems] Hooked onto MythicMobs
-[20:00:56] [Server thread/INFO]: [MMOItems THRUSTING_SWORD SKILLED_SWORD] Could not load base item data 'required-dexterity': Could not find stat with ID 'REQUIRED_DEXTERITY'
-[20:00:56] [Server thread/INFO]: [MMOItems SWORD YANISDARK_SWORD] Could not load base item data 'additional-experience': Could not find stat with ID 'ADDITIONAL_EXPERIENCE'
-[20:00:56] [Server thread/INFO]: [MMOItems OFF_CATALYST QUICKCASTER_CATALYST] Could not load base item data 'mana-regeneration': Could not find stat with ID 'MANA_REGENERATION'
-[20:00:56] [Server thread/INFO]: [MMOItems OFF_CATALYST CHARM_OF_LEVITATION] Could not load base item data 'max-stellium': Could not find stat with ID 'MAX_STELLIUM'
-[20:00:56] [Server thread/INFO]: [MMOItems KATANA MASTER_KATANA] Could not load base item data 'required-dexterity': Could not find stat with ID 'REQUIRED_DEXTERITY'
-[20:00:56] [Server thread/INFO]: [MMOItems CATALYST LUCK_CHARM] Could not load base item data 'additional-experience': Could not find stat with ID 'ADDITIONAL_EXPERIENCE'
-[20:00:56] [Server thread/INFO]: [MMOItems CATALYST LUCK_CHARM] Could not load base item data 'additional-experience-enchanting': Could not find stat with ID 'ADDITIONAL_EXPERIENCE_ENCHANTING'
-[20:00:56] [Server thread/INFO]: [MMOItems HAMMER THOR_HAMMER] Could not load base item data 'additional-experience': Could not find stat with ID 'ADDITIONAL_EXPERIENCE'
-[20:00:56] [Server thread/INFO]: [MMOItems Item Templates] Loading template modifiers, please wait..
-[20:00:56] [Server thread/INFO]: [MMOItems Item Templates] Loading item templates, please wait...
-[20:00:56] [Server thread/INFO]: [MMOItems] Loading crafting stations, please wait..
-[20:00:57] [Server thread/INFO]: [MMOItems] Loading recipes, please wait...
-[20:00:57] [Server thread/INFO]: Running delayed init tasks
-[20:00:57] [Server thread/INFO]: Done (23.740s)! For help, type "help"
-[20:00:57] [Server thread/INFO]: Timings Reset
+[20:05:38] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 2 worker threads, and gen parallelism of 2 threads
+[20:05:39] [Server thread/INFO]: Default game type: SURVIVAL
+[20:05:39] [Server thread/INFO]: Generating keypair
+[20:05:39] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:05:39] [Server thread/INFO]: Using default channel type
+[20:05:39] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[20:05:39] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[20:05:40] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.3.0-SNAPSHOT-723
+[20:05:40] [Server thread/INFO]: [LibsDisguises] Loading server plugin LibsDisguises v10.0.44
+[20:05:40] [Server thread/INFO]: [MythicMobs] Loading server plugin MythicMobs v5.6.2-3e052553
+[20:05:40] [Server thread/INFO]: [LumineUtils] (io.lumine.mythic.bukkit.utils.) is bound to plugin MythicMobs - io.lumine.mythic.bukkit.MythicBukkit
+[20:05:41] [Server thread/INFO]: [MythicMobs] §4M§6y§6t§6h§2i§2c§2 §3E§3n§1a§1b§1l§5e§5d§4![0m
+[20:05:41] [Server thread/INFO]: [MythicLib] Loading server plugin MythicLib v1.6.1
+[20:05:41] [Server thread/INFO]: [MythicLib] Plugin file is called 'MythicLib-1.6.1.jar'
+[20:05:41] [Server thread/INFO]: [MythicLib] Detected Bukkit Version: v1_19_R3
+[20:05:41] [Server thread/INFO]: [MMOCore] Loading server plugin MMOCore v1.12
+[20:05:41] [Server thread/INFO]: [MMOCore] Plugin file is called 'MMOCore-1.12.jar'
+[20:05:41] [Server thread/INFO]: [MMOItems] Loading server plugin MMOItems v6.9.4
+[20:05:41] [Server thread/INFO]: [MMOItems] Plugin file is called 'MMOItems-6.9.4.jar'
+[20:05:41] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.131
+[20:05:42] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:05:42] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.3.0-SNAPSHOT-723
+[20:05:42] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.131
+[20:05:43] [Server thread/INFO]:         __    
+[20:05:43] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.131
+[20:05:43] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[20:05:43] [Server thread/INFO]: 
+[20:05:43] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[20:05:43] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[20:05:44] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[20:05:44] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[20:05:44] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2554ms)
+[20:05:44] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:05:44] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:05:44] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:05:44] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:05:44] [Server thread/INFO]: Preparing level "world"
+[20:05:45] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:05:45] [Server thread/INFO]: Time elapsed: 389 ms
+[20:05:45] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[20:05:45] [Server thread/INFO]: Time elapsed: 61 ms
+[20:05:45] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[20:05:46] [Server thread/INFO]: Time elapsed: 97 ms
+[20:05:46] [Server thread/INFO]: [LibsDisguises] Enabling LibsDisguises v10.0.44
+[20:05:46] [Server thread/INFO]: [LibsDisguises] File Name: LibsDisguises-10.0.44-Free.jar
+[20:05:46] [Server thread/INFO]: [LibsDisguises] Discovered nms version: (Package: v1_19_R3) (LD: v1_19_R3) (MC: 1.19.4)
+[20:05:46] [Server thread/INFO]: [LibsDisguises] Jenkins Build: #1314
+[20:05:46] [Server thread/INFO]: [LibsDisguises] Build Date: 10/04/2024 02:12
+[20:05:46] [Server thread/INFO]: [LibsDisguises] If you own the plugin, place the premium jar downloaded from https://www.spigotmc.org/resources/libs-disguises.32453/ in plugins/LibsDisguises/
+[20:05:46] [Server thread/INFO]: [LibsDisguises] You are running the free version, commands limited to non-players and operators. (Console, Command Blocks, Admins)
+[20:05:46] [Server thread/INFO]: [LibsDisguises] Config 'TallSelfDisguises' is set to 'false', LD will hide oversized disguises from self disguise. https://www.spigotmc.org/wiki/lib-s-disguises-faq/#tall-disguises-self-disguises
+[20:05:49] [Server thread/INFO]: [LibsDisguises] Loaded custom disguise libraryaddict
+[20:05:49] [Server thread/INFO]: [LibsDisguises] Loaded 1 custom disguise
+[20:05:49] [Server thread/INFO]: [LibsDisguises] Config is up to date!
+[20:05:49] [Server thread/INFO]: [MythicMobs] Enabling MythicMobs v5.6.2-3e052553
+[20:05:50] [Server thread/INFO]: [MythicMobs] Loading MythicMobs for Paper (MC: 1.19.4)...[0m
+[20:05:50] [Server thread/INFO]: [MythicMobs] The server is running Paper; enabled Paper exclusive functionality[0m
